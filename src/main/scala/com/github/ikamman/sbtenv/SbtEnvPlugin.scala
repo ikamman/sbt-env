@@ -21,7 +21,7 @@ object SbtEnvPlugin extends AutoPlugin {
   override lazy val globalSettings =
     Seq(
       envFileName := ".env",
-      envVariables := parseAndLoad((baseDirectory / envFileName).value).getOrElse(Map.empty)
+      envVariables := parseAndLoad((baseDirectory / envFileName.value).value).getOrElse(Map.empty)
     )
 
   def parseAndLoad(fileName: String): Option[Map[String, String]] =
