@@ -24,6 +24,8 @@ Just create your `.env` file near your `build.sbt` file
     vi .env
 ```
 
+add your variables:
+
 ```bash
     APPLICATION_VERSION=0.0.1-SNAPSHOT 
     # or
