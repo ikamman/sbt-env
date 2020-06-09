@@ -1,0 +1,4 @@
+[debug] [sbt-env-plugin-test] Classpath dependencies List()
+[debug] [sbt-env-plugin-test] Dependencies from configurations List(sbt-env-plugin)
+[debug] Bloop wrote the configuration of project 'sbt-env-plugin-test' to '/Users/nietsnie/dev/projects/letpicgo_finalle/.bloop/sbt-env-plugin-test.json'
+[success] Generated .bloop/sbt-env-plugin-test.json

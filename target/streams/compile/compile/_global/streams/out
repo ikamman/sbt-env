@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/nietsnie/dev/projects/letpicgo_finalle/sbt-env-plugin/src/main/scala/com/github/ikamman/sbtenvplugin/SbtEnvPlugin.scala:47:35: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Option[Map[String,String]][0m
+[0m[[0m[31merror[0m] [0m[0m required: Map[String,String][0m
+[0m[[0m[31merror[0m] [0m[0m      envVariables := parseAndLoad((baseDirectory / envFileName).value)[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

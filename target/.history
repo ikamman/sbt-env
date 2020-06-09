@@ -1,0 +1,152 @@
+compile
+reload
+compile
+reload
+compile
+reload
+compile
+clean compile
+clean
+compile
+publishLocal
+reload
+exit
+publishLocal
+reload
+publishLocal
+reload
+publishLocal
+reload
+publishLocal
+reload
+publishLocal
+reload
+relaod
+reload
+publishLocal
+reload
+publishLocal
+reload
+publishLocal
+reload
+publishLocal
+reload
+publishLocal
+reload
+publishLocal
+reload
+publishLocal
+reload
+publishLocal
+reload
+publishLocal
+reload
+publishLocal
+reload
+publishLocal
+reload
+project auth-service
+reload
+publishLocal
+reload
+publishLocal
+reload
+publishLocal
+reload
+clean
+project root
+publishLocal
+reload
+version
+project root
+publishLocal
+reload
+project root
+publishLocal
+reload
+project root
+publishLocal
+reload
+publishLocal
+reload
+publishLocal
+reload
+publishLocal
+reload
+publishLocal
+reload
+publishLocal
+reload
+publishLocal
+reload
+publishLocal
+reload
+publishLocal
+reload
+publishLocal
+reload
+publishLocal
+reload
+publishLocal
+reload
+project roo
+project root
+publishLocal
+project root
+publishLocal
+reload
+publishLocal
+reload
+publishLocal
+reload
+publishLocal
+reload
+publishLocal
+reload
+inspect
+inspect actual envVariables
+reload
+inspect actual envVariables
+inspect actual envVars
+inspect actual envVarsLoaded
+publishLocal
+reload
+inspect actual envVarsLoaded
+inspect actual envVariables
+publishLocal
+reload
+publishLocal
+reload
+publishLocal
+reload
+publishLocal
+reload
+publishLocal
+reload
+q
+exiy
+exit
+publishLocal
+reload
+publishLocal
+reload
+inspect actual envVarsLoaded
+publishLocal
+reload
+inspect actual envVarsLoaded
+publishLocal
+reload
+inspect actual envVarsLoaded
+load-env-vars
+inspect actual envVarsLoaded
+inspect actual envVariables
+publishLocal
+reload
+project root
+publishLocal
+reload
+publishLocal
+exit
+compile
+publishLocal
+exit

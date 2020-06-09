@@ -1,0 +1,5 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/nietsnie/dev/projects/sbt-env/target/scala-2.12/sbt-1.0/sbt-env-0.0.9-SNAPSHOT-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/github/ikamman/sbtenv/SbtEnvPlugin.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/nietsnie/dev/projects/sbt-env/src/main/scala/com/github/ikamman/sbtenv/SbtEnvPlugin.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
