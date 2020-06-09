@@ -1,6 +1,6 @@
-
 name := "sbt-env"
-version := "0.0.9-SNAPSHOT"
+version := "0.9-SNAPSHOT"
+
 organization := "com.github.ikamman"
 
 scalaVersion := "2.12.8"
