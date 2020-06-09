@@ -10,9 +10,9 @@ SBT plugin for loading *.env file variables into SBT global settings
 Add the following code to your sbt `project/plugins.sbt` file:
 
 ```sbt
-    addSbtPlugin("com.github.ikamman" %% "sbt-env" % "(https://bintray.com/nietsnie/sbt-plugins/sbt-env/_latestVersion)")
+    addSbtPlugin("com.github.ikamman" %% "sbt-env" % "0.9.x")
 ```
-After this step you will find all variables in the
+After this step you will find all variables in the following `Global` setting:
 ```sbt
     envVariables in Global
 ```
