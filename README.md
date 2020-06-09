@@ -7,19 +7,20 @@ SBT plugin for loading *.env file variables into SBT global settings
 
 ## Installation
 
-Add the following code to your sbt `project/plugins.sbt` file:
+Add the following code to your sbt `project/plugins.sbt`:
 
 ```sbt
+    resolvers += Resolver.bintrayRepo("nietsnie", "sbt-plugins")
+
     addSbtPlugin("com.github.ikamman" %% "sbt-env" % "0.9.x")
 ```
-After this step you will find all variables in the following `Global` setting:
+After this step you will find all variables in the `Global` scope:
 ```sbt
     envVariables in Global
 ```
 
 ## Usage
-
-Just create your `.env` file near your `build.sbt` file
+Just create your `.env` file near your `build.sbt`:
 ```bash
     vi .env
 ```
@@ -45,3 +46,12 @@ Due to fact that environment variables are stored in `Setting[Map[String, String
 ```sbt
     version := envVariables.value("APPLICATION_VERSION")
 ```
+
+## A note about requirements
+This plugin needs SBT 1.x+ version to work properly.
+
+## Credits and inspiration
+Big thanks to [Matt Fellows](https://github.com/mefellows) and his [sbt-dotenv](https://github.com/mefellows/sbt-dotenv) amazing sbt plugin. It was the main inspiration to create this plugin.
+
+## Example
+This repo is itself an example ;)
