@@ -15,7 +15,7 @@ script:
 
 deploy:
   provider: script
-  script: sbt 'set version := version.value.replace("-SNAPSHOT", "") + "." + System.getenv("TRAVIS_BUILD_NUMBER")' ^^$SBT_VERSION publish
+  script: sbt 'set version := version.value.replace("-SNAPSHOT", "") + "." + System.getenv("TRAVIS_BUILD_NUMBER")' ^^$SBT_VERSION bundle:publish
   on:
     branch: master
 

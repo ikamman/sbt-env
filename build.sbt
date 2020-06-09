@@ -7,7 +7,10 @@ scalaVersion := "2.12.11"
 
 enablePlugins(SbtPlugin)
 
-bintrayOrganization := None
+licenses += ("MIT", url("http://opensource.org/licenses/MIT"))
+
 bintrayRepository := "sbt-plugins"
 
-licenses += ("MIT", url("http://opensource.org/licenses/MIT"))
+publishMavenStyle := true
+
+
